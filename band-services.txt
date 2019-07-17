@@ -1,0 +1,9 @@
+Service uuid: 1800
+Service uuid: 1801
+Service uuid: 180a
+Service uuid: 000015300000351221180009af100700
+Service uuid: 1811
+Service uuid: 1802
+Service uuid: 180d
+Service uuid: fee0
+Service uuid: fee1
