@@ -1,0 +1,71 @@
+Peripheral {
+  _noble:
+   Noble {
+     initialized: true,
+     address: '5c:f3:70:92:ab:b8',
+     _state: 'poweredOn',
+     _bindings:
+      NobleBindings {
+        _state: 'poweredOn',
+        _addresses: [Object],
+        _addresseTypes: [Object],
+        _connectable: [Object],
+        _pendingConnectionUuid: null,
+        _connectionQueue: [],
+        _handles: {},
+        _gatts: {},
+        _aclStreams: {},
+        _signalings: {},
+        _hci: [Hci],
+        _gap: [Gap],
+        _events: [Object],
+        _eventsCount: 21,
+        onSigIntBinded: [Function: bound ],
+        _scanServiceUuids: [] },
+     _peripherals:
+      { '60f81dc8e689': [Peripheral],
+        '2c261718dfed': [Peripheral],
+        '6547dd94cc1e': [Peripheral],
+        ddfb29c4f2ca: [Circular] },
+     _services:
+      { '60f81dc8e689': {},
+        '2c261718dfed': {},
+        '6547dd94cc1e': {},
+        ddfb29c4f2ca: {} },
+     _characteristics:
+      { '60f81dc8e689': {},
+        '2c261718dfed': {},
+        '6547dd94cc1e': {},
+        ddfb29c4f2ca: {} },
+     _descriptors:
+      { '60f81dc8e689': {},
+        '2c261718dfed': {},
+        '6547dd94cc1e': {},
+        ddfb29c4f2ca: {} },
+     _discoveredPeripheralUUids:
+      [ '60f81dc8e689', '2c261718dfed', '6547dd94cc1e', 'ddfb29c4f2ca' ],
+     _events:
+      [Object: null prototype] {
+        warning: [Function: bound ],
+        newListener: [Function: bound ],
+        stateChange: [Function],
+        discover: [Function] },
+     _eventsCount: 4,
+     _allowDuplicates: undefined },
+  id: 'ddfb29c4f2ca',
+  uuid: 'ddfb29c4f2ca',
+  address: 'dd:fb:29:c4:f2:ca',
+  addressType: 'random',
+  connectable: true,
+  advertisement:
+   { localName: 'MI Band 2',
+     txPowerLevel: undefined,
+     manufacturerData:
+      <Buffer 57 01 00 d5 e4 97 42 9b 77 5f 98 fd fe e6 72 ab 4d 2b e0 03 dd fb 29 c4 f2 ca>,
+     serviceData: [],
+     serviceUuids: [ 'fee0' ],
+     solicitationServiceUuids: [],
+     serviceSolicitationUuids: [] },
+  rssi: -69,
+  services: null,
+  state: 'disconnected' }

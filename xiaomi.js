@@ -1,21 +1,25 @@
 const MiBand = require('miband');
+const crypto = require('browserify-aes');
 const noble = require('noble');
+
+//const key = new Buffer('30313233343536373839404142434445', 'hex');
 
 noble.on('stateChange', function (state) {
 	if (state === 'poweredOn') {
 		//Filter by Miband id
-		noble.startScanning(['fee0']);
+		noble.startScanning();
 	} else {
 		noble.stopScanning();
 	}
 });
 
+
+/*
 noble.on('discover', function (peripheral) {
 	console.log('Found device with local name: ' + peripheral.advertisement.localName);
 	console.log('advertising the following service uuid\'s: ' + peripheral.advertisement.serviceUuids);
 	noble.stopScanning();
 	peripheral.connect(function (error) {
-		const services = [];
 		if (!error) {
 			peripheral.discoverServices(['1802'], function (error, services) {
 				console.log('discovered the following services:');
@@ -31,15 +35,11 @@ noble.on('discover', function (peripheral) {
 					});
 				});
 			});
-			/*
-			services[i].discoverCharacteristics(null, function (error, characteristics) {
-				console.log('Service uuid: ' + services[i].uuid);
-				console.log('\t discovered the following characteristics:');
-				for (var j in characteristics) {
-					console.log('\t  ' + j + ' uuid: ' + characteristics[j].uuid);
-				}
-			});
-			*/
 		}
 	});
 });
+*/
+
+function connectXiaomi() {
+	//todo
+}

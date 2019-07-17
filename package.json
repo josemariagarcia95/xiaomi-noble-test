@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bluetooth-hci-socket": "^0.5.1",
+    "browserify-aes": "^1.2.0",
     "miband": "^0.1.4",
     "noble": "^1.9.1",
     "webbluetooth": "^1.1.1"
