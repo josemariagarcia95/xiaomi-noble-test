@@ -69,3 +69,6 @@ Peripheral {
   rssi: -69,
   services: null,
   state: 'disconnected' }
+
+Characteristic structure
+Name: {"uuid":"1800","name":"Generic Access","type":"org.bluetooth.service.generic_access","includedServiceUuids":null}
